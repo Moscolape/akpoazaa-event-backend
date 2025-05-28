@@ -16,7 +16,7 @@ exports.sendContactEmail = async (req, res) => {
     let mailOptions = {
       from: process.env.EMAIL_USER,
       to: process.env.EMAIL_USER,
-      subject: `Message from Akpoazaa Foundation`,
+      subject: `Contact Form Submission from Akpoazaa Event Planners Website`,
       text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
       replyTo: email,
     };
